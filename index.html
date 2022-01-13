@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
         <style>
             a{
                 color: #000;
@@ -26,23 +26,95 @@
               
             }
         </style>
-    </head>
+</head>
     <body>
-        <a href="https://www.163.com/" target="_blank">
-            <div class="one">
-                <div class="one_img">
-                    <img src="https://github.com/zhxnix/zhxnix.github.io/raw/main/icon/163.png?raw=true"/>
-                </div>
-                <div class="one_text">网易</div>
-            </div>
-        </a>
-        <a href="https://www.notion.so/" target="_blank">
-            <div class="one">
-                <div class="one_img">
-                    <img src="https://github.com/zhxnix/zhxnix.github.io/raw/main/icon/notion.jpg?raw=true"/>
-                </div>
-                <div class="one_text">notion</div>
-            </div>
-        </a>
+        <div id="kanbanID">
+        </div>
+        <script type="text/javascript">
+            var list;
+            $(document).ready(function() {
+                var data = [
+                    {
+                        "link": "https://www.163.com/",
+                        "img": "163.png",
+                        "text": "网易",
+                    },
+                    {
+                        "link": "https://www.notion.so/",
+                        "img": "notion.jpg",
+                        "text": "notion",
+                    },
+                    {
+                        "link": "https://www.qq.com/",
+                        "img": "qq.png",
+                        "text": "QQ",
+                    },
+                    {
+                        "link": "https://www.3dmgame.com/",
+                        "img": "3dgame.png",
+                        "text": "3dmgame",
+                    },
+                    {
+                        "link": "https://www.hao6v.cc/",
+                        "img": "6vhao.png",
+                        "text": "6vhao",
+                    },
+                    {
+                        "link": "https://www.bilibili.com/",
+                        "img": "bilibili.png",
+                        "text": "哔哩哔哩",
+                    },
+                    {
+                        "link": "https://www.google.com.hk/?gws_rd=ssl",
+                        "img": "google.png",
+                        "text": "谷歌",
+                    },
+                    {
+                        "link": "https://www.baidu.com/",
+                        "img": "baidu.png",
+                        "text": "百度",
+                    },
+                    {
+                        "link": "https://docs.qq.com/",
+                        "img": "tecentdoc.png",
+                        "text": "腾讯文档",
+                    },
+                    {
+                        "link": "https://note.youdao.com/",
+                        "img": "youdaoyun.png",
+                        "text": "有道云笔记",
+                    },
+                    {
+                        "link": "https://mp.weixin.qq.com/",
+                        "img": "gongzhonghao.png",
+                        "text": "公众号后台",
+                    },
+                    {
+                        "link": "https://mubu.com/home",
+                        "img": "mubu.png",
+                        "text": "幕布",
+                    },
+                    {
+                        "link": "https://pan.baidu.com/",
+                        "img": "baiduyun.png",
+                        "text": "百度云",
+                    },
+                    {
+                        "link": "https://mp.toutiao.com/",
+                        "img": "toutiao.png",
+                        "text": "头条后台",
+                    },
+
+            
+                ];
+                
+                for (var i in data) {
+                    list = data[i];
+                    $('#kanbanID').append('<a href="' + list.link + '" target="_blank"><div class="one"><div class="one_img"><img src="https://github.com/zhxnix/zhxnix.github.io/raw/main/icon/' + list.img + '?raw=true"/></div><div class="one_text">' + list.text + '</div></div></a>');
+                    document.getElementById("kanbanID").innerHTML;
+                
+                }
+            });
+            </script> 
     </body>
 </html>
