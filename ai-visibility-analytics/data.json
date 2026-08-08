@@ -1,22 +1,22 @@
 {
   "windowDays": 30,
-  "generatedAt": "2026-08-08T01:45:19.323Z",
+  "generatedAt": "2026-08-08T03:40:55.856Z",
   "sourceStatus": "live_api",
   "privacy": "Anonymous aggregate events only. No IP address, cookie, visitor ID, form content, or device fingerprint is stored.",
   "totals": {
-    "totalEvents": 17
+    "totalEvents": 21
   },
   "byEvent": [
     {
       "event": "page_view",
-      "count": 17
+      "count": 21
     }
   ],
   "byCountry": [
     {
       "country": "US",
       "region": "",
-      "count": 10
+      "count": 14
     },
     {
       "country": "XX",
@@ -27,7 +27,7 @@
   "byContinent": [
     {
       "continent": "",
-      "count": 17
+      "count": 21
     }
   ],
   "bySource": [
@@ -35,7 +35,7 @@
       "source": "direct",
       "medium": "",
       "campaign": "",
-      "count": 16
+      "count": 20
     },
     {
       "source": "codex_validation",
@@ -50,10 +50,15 @@
     {
       "pathname": "/",
       "event": "page_view",
-      "count": 17
+      "count": 21
     }
   ],
   "daily": [
+    {
+      "day": "2026-08-08",
+      "event": "page_view",
+      "count": 4
+    },
     {
       "day": "2026-08-07",
       "event": "page_view",
