@@ -1,15 +1,27 @@
 {
   "windowDays": 30,
-  "generatedAt": "2026-08-08T06:22:53.766Z",
+  "generatedAt": "2026-08-08T07:32:24.433Z",
   "sourceStatus": "live_api",
   "privacy": "Anonymous aggregate events only. No IP address, cookie, visitor ID, form content, or device fingerprint is stored.",
   "totals": {
-    "totalEvents": 23
+    "totalEvents": 28
   },
   "byEvent": [
     {
       "event": "page_view",
-      "count": 23
+      "count": 25
+    },
+    {
+      "event": "outbound_click",
+      "count": 1
+    },
+    {
+      "event": "contra_click",
+      "count": 1
+    },
+    {
+      "event": "agency_page_click",
+      "count": 1
     }
   ],
   "byCountry": [
@@ -22,12 +34,17 @@
       "country": "XX",
       "region": "",
       "count": 7
+    },
+    {
+      "country": "NG",
+      "region": "",
+      "count": 2
     }
   ],
   "byContinent": [
     {
       "continent": "",
-      "count": 23
+      "count": 25
     }
   ],
   "bySource": [
@@ -35,7 +52,7 @@
       "source": "direct",
       "medium": "",
       "campaign": "",
-      "count": 22
+      "count": 24
     },
     {
       "source": "codex_validation",
@@ -44,20 +61,76 @@
       "count": 1
     }
   ],
-  "byReferrer": [],
-  "byTarget": [],
+  "byReferrer": [
+    {
+      "referrer": "ai-visibility-sprint.zhxnix.chatgpt.site",
+      "count": 1
+    }
+  ],
+  "byTarget": [
+    {
+      "target": "ai-visibility-sprint.zhxnix.chatgpt.site",
+      "event": "agency_page_click",
+      "count": 1
+    },
+    {
+      "target": "contra.com",
+      "event": "contra_click",
+      "count": 1
+    },
+    {
+      "target": "x.com",
+      "event": "outbound_click",
+      "count": 1
+    }
+  ],
   "byPage": [
     {
       "pathname": "/",
       "event": "page_view",
-      "count": 23
+      "count": 24
+    },
+    {
+      "pathname": "/",
+      "event": "agency_page_click",
+      "count": 1
+    },
+    {
+      "pathname": "/",
+      "event": "contra_click",
+      "count": 1
+    },
+    {
+      "pathname": "/",
+      "event": "outbound_click",
+      "count": 1
+    },
+    {
+      "pathname": "/services/agency-website-audit-partner",
+      "event": "page_view",
+      "count": 1
     }
   ],
   "daily": [
     {
       "day": "2026-08-08",
+      "event": "agency_page_click",
+      "count": 1
+    },
+    {
+      "day": "2026-08-08",
+      "event": "contra_click",
+      "count": 1
+    },
+    {
+      "day": "2026-08-08",
+      "event": "outbound_click",
+      "count": 1
+    },
+    {
+      "day": "2026-08-08",
       "event": "page_view",
-      "count": 6
+      "count": 8
     },
     {
       "day": "2026-08-07",
