@@ -1,0 +1,52 @@
+{
+  "windowDays": 30,
+  "generatedAt": "2026-08-08T01:29:00.000Z",
+  "sourceStatus": "last_verified_snapshot",
+  "privacy": "Anonymous aggregate events only. No IP address, cookie, visitor ID, form content, or device fingerprint is stored.",
+  "totals": {
+    "totalEvents": 17
+  },
+  "byEvent": [
+    {
+      "event": "page_view",
+      "count": 17
+    }
+  ],
+  "byCountry": [
+    {
+      "country": "US",
+      "region": "",
+      "count": 10
+    },
+    {
+      "country": "XX",
+      "region": "",
+      "count": 7
+    }
+  ],
+  "byContinent": [],
+  "bySource": [
+    {
+      "source": "direct",
+      "medium": "",
+      "campaign": "",
+      "count": 16
+    },
+    {
+      "source": "internal QA",
+      "medium": "",
+      "campaign": "",
+      "count": 1
+    }
+  ],
+  "byReferrer": [],
+  "byTarget": [],
+  "byPage": [
+    {
+      "pathname": "/",
+      "event": "page_view",
+      "count": 17
+    }
+  ],
+  "daily": []
+}
