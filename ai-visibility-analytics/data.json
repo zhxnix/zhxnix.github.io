@@ -1,7 +1,7 @@
 {
   "windowDays": 30,
-  "generatedAt": "2026-08-08T01:29:00.000Z",
-  "sourceStatus": "last_verified_snapshot",
+  "generatedAt": "2026-08-08T01:45:19.323Z",
+  "sourceStatus": "live_api",
   "privacy": "Anonymous aggregate events only. No IP address, cookie, visitor ID, form content, or device fingerprint is stored.",
   "totals": {
     "totalEvents": 17
@@ -24,7 +24,12 @@
       "count": 7
     }
   ],
-  "byContinent": [],
+  "byContinent": [
+    {
+      "continent": "",
+      "count": 17
+    }
+  ],
   "bySource": [
     {
       "source": "direct",
@@ -33,9 +38,9 @@
       "count": 16
     },
     {
-      "source": "internal QA",
-      "medium": "",
-      "campaign": "",
+      "source": "codex_validation",
+      "medium": "qa",
+      "campaign": "analytics_v30",
       "count": 1
     }
   ],
@@ -48,5 +53,11 @@
       "count": 17
     }
   ],
-  "daily": []
+  "daily": [
+    {
+      "day": "2026-08-07",
+      "event": "page_view",
+      "count": 17
+    }
+  ]
 }
